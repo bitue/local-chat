@@ -12,6 +12,6 @@ while True:
     # accept the data and get two params always
     c, add = s.accept()
     name = c.recv(1024).decode()
-    print('client connected with', add, name)
-    c.send(bytes('welcome to python server', 'utf-8'))
+    print('you are always connected with my heart', add, name)
+    c.send(bytes('i love you ', 'utf-8'))
     c.close()
