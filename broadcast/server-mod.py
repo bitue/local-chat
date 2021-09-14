@@ -61,5 +61,5 @@ def receive():
         # thread now get handle function and client arg and is going to start
         thread.start()
 
-print(f"server is running .....")
+print(f"server is running ....")
 receive()
